@@ -17,6 +17,7 @@ namespace Housing.Configuration.Entities
                     State = "Massachusetts",
                     CountryId = 1,
                     Size = " 2400x2000x5000",
+                    Rating = 4.5,
                     NumberOfRooms = 4
                 },
 
@@ -27,15 +28,17 @@ namespace Housing.Configuration.Entities
                     State = "Adelaide",
                     CountryId = 3,
                     Size = " 24000x60000x50000",
+                    Rating = 5,
                     NumberOfRooms = 5
                 },
                 new House
                 {
                     Id = 3,
                     Address = "Nc 445 street pittsburg",
-                    State = "NewCastle",
+                    State = "Newcastle",
                     CountryId = 2,
                     Size = " 24000x30000x80000",
+                    Rating= 4.8,
                     NumberOfRooms = 6
                 }
 

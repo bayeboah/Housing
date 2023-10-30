@@ -33,6 +33,7 @@ namespace Housing.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Rating = table.Column<double>(type: "float", nullable: false),
                     State = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CountryId = table.Column<int>(type: "int", nullable: false),
                     Size = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -83,12 +84,12 @@ namespace Housing.Migrations
 
             migrationBuilder.InsertData(
                 table: "Houses",
-                columns: new[] { "Id", "Address", "CountryId", "NumberOfRooms", "Size", "State" },
+                columns: new[] { "Id", "Address", "CountryId", "NumberOfRooms", "Rating", "Size", "State" },
                 values: new object[,]
                 {
-                    { 1, "BA 213445 street", 1, 4, " 2400x2000x5000", "Massachusetts" },
-                    { 2, "AD 093848 paddington", 3, 5, " 24000x60000x50000", "Adelaide" },
-                    { 3, "Nc 445 street pittsburg", 2, 6, " 24000x30000x80000", "NewCastle" }
+                    { 1, "BA 213445 street", 1, 4, 4.5, " 2400x2000x5000", "Massachusetts" },
+                    { 2, "AD 093848 paddington", 3, 5, 5.0, " 24000x60000x50000", "Adelaide" },
+                    { 3, "Nc 445 street pittsburg", 2, 6, 4.7999999999999998, " 24000x30000x80000", "Newcastle" }
                 });
 
             migrationBuilder.InsertData(

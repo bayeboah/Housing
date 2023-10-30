@@ -8,7 +8,10 @@ namespace Housing.Data
 
         public string Address { get; set; }
 
-        public string State { get; set; }
+
+        public double Rating { get; set; }
+
+        public String State { get; set; }
 
         [ForeignKey(nameof(Country))]
         public int CountryId { get; set; }

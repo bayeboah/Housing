@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Housing.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20231029231632_DatabaseCreated")]
+    [Migration("20231030001733_DatabaseCreated")]
     partial class DatabaseCreated
     {
         /// <inheritdoc />
@@ -83,6 +83,9 @@ namespace Housing.Migrations
                     b.Property<int>("NumberOfRooms")
                         .HasColumnType("int");
 
+                    b.Property<double>("Rating")
+                        .HasColumnType("float");
+
                     b.Property<string>("Size")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -104,6 +107,7 @@ namespace Housing.Migrations
                             Address = "BA 213445 street",
                             CountryId = 1,
                             NumberOfRooms = 4,
+                            Rating = 4.5,
                             Size = " 2400x2000x5000",
                             State = "Massachusetts"
                         },
@@ -113,6 +117,7 @@ namespace Housing.Migrations
                             Address = "AD 093848 paddington",
                             CountryId = 3,
                             NumberOfRooms = 5,
+                            Rating = 5.0,
                             Size = " 24000x60000x50000",
                             State = "Adelaide"
                         },
@@ -122,8 +127,9 @@ namespace Housing.Migrations
                             Address = "Nc 445 street pittsburg",
                             CountryId = 2,
                             NumberOfRooms = 6,
+                            Rating = 4.7999999999999998,
                             Size = " 24000x30000x80000",
-                            State = "NewCastle"
+                            State = "Newcastle"
                         });
                 });
 
