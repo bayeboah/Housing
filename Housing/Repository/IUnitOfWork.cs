@@ -6,7 +6,7 @@ namespace Housing.Repository
     {
         IGenericRepository<Country> Countries { get; }
 
-        IGenericRepository<House> Hotels { get; }
+        IGenericRepository<House> Houses { get; }
 
         IGenericRepository<State> States { get; }
 

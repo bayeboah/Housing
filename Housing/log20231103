@@ -1,0 +1,576 @@
+2023-11-03 09:41:32.993 +00:00} [INF] Application has Started.
+2023-11-03 09:41:33.532 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 09:41:33.536 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 09:41:33.540 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 09:41:33.581 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 09:41:34.591 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 1014.3869ms
+2023-11-03 09:41:34.593 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 09:41:34.593 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 09:41:34.606 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 8.9620ms
+2023-11-03 09:41:34.740 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 147.0120ms
+2023-11-03 09:41:34.828 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 09:41:35.052 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.9598ms
+2023-11-03 10:42:51.218 +00:00} [INF] Application has Started.
+2023-11-03 10:42:51.285 +00:00} [FTL] Application Failed to Start.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Program.cs:line 51
+2023-11-03 11:07:18.064 +00:00} [INF] Application has Started.
+2023-11-03 11:07:18.171 +00:00} [FTL] Application Failed to Start.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Program.cs:line 51
+2023-11-03 11:50:08.288 +00:00} [INF] Application has Started.
+2023-11-03 11:50:08.757 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 11:50:09.085 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 11:50:09.086 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 11:50:09.086 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 11:50:09.149 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 11:50:09.695 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 509.0084ms
+2023-11-03 11:50:09.766 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 11:50:09.771 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 11:50:09.783 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 10.9785ms
+2023-11-03 11:50:09.883 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 116.3166ms
+2023-11-03 11:50:09.987 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 11:50:10.252 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 264.8173ms
+2023-11-03 11:51:18.113 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 171
+2023-11-03 11:51:18.128 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:51:18.134 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:51:18.177 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:51:18.764 +00:00} [INF] Registration Attempt for beno@example.com
+2023-11-03 11:51:18.960 +00:00} [ERR] Something went wrong in the Register
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserDTO -> ApiUser
+Housing.Model.UserDTO -> Housing.Data.ApiUser
+   at lambda_method32(Closure, Object, ApiUser, ResolutionContext)
+   at Housing.Controllers.AccountController.Register(UserDTO userDto) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Controllers\AccountController.cs:line 44
+2023-11-03 11:51:19.046 +00:00} [INF] Executing "ObjectResult", writing value of type '"System.String"'.
+2023-11-03 11:51:19.053 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 871.2221ms
+2023-11-03 11:51:19.053 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:51:19.057 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 171 - 500 - text/plain;+charset=utf-8 945.2537ms
+2023-11-03 11:51:44.359 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 171
+2023-11-03 11:51:44.393 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:51:44.397 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:51:44.398 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:51:44.417 +00:00} [INF] Registration Attempt for beno@example.com
+2023-11-03 11:51:44.463 +00:00} [ERR] Something went wrong in the Register
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserDTO -> ApiUser
+Housing.Model.UserDTO -> Housing.Data.ApiUser
+   at lambda_method32(Closure, Object, ApiUser, ResolutionContext)
+   at Housing.Controllers.AccountController.Register(UserDTO userDto) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Controllers\AccountController.cs:line 44
+2023-11-03 11:51:44.464 +00:00} [INF] Executing "ObjectResult", writing value of type '"System.String"'.
+2023-11-03 11:51:44.465 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 66.211ms
+2023-11-03 11:51:44.465 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:51:44.465 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 171 - 500 - text/plain;+charset=utf-8 113.4781ms
+2023-11-03 11:51:46.575 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 171
+2023-11-03 11:51:46.577 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:51:46.577 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:51:46.577 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:51:46.594 +00:00} [INF] Registration Attempt for beno@example.com
+2023-11-03 11:51:46.641 +00:00} [ERR] Something went wrong in the Register
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserDTO -> ApiUser
+Housing.Model.UserDTO -> Housing.Data.ApiUser
+   at lambda_method32(Closure, Object, ApiUser, ResolutionContext)
+   at Housing.Controllers.AccountController.Register(UserDTO userDto) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Controllers\AccountController.cs:line 44
+2023-11-03 11:51:46.642 +00:00} [INF] Executing "ObjectResult", writing value of type '"System.String"'.
+2023-11-03 11:51:46.642 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 64.9969ms
+2023-11-03 11:51:46.642 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:51:46.643 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 171 - 500 - text/plain;+charset=utf-8 67.2628ms
+2023-11-03 11:52:28.917 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 171
+2023-11-03 11:52:28.920 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:52:28.920 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:52:28.921 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:52:28.922 +00:00} [INF] Registration Attempt for Beno@example.com
+2023-11-03 11:52:28.964 +00:00} [ERR] Something went wrong in the Register
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserDTO -> ApiUser
+Housing.Model.UserDTO -> Housing.Data.ApiUser
+   at lambda_method32(Closure, Object, ApiUser, ResolutionContext)
+   at Housing.Controllers.AccountController.Register(UserDTO userDto) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Controllers\AccountController.cs:line 44
+2023-11-03 11:52:28.965 +00:00} [INF] Executing "ObjectResult", writing value of type '"System.String"'.
+2023-11-03 11:52:28.965 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 44.3534ms
+2023-11-03 11:52:28.965 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:52:28.965 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 171 - 500 - text/plain;+charset=utf-8 51.9159ms
+2023-11-03 11:57:00.267 +00:00} [INF] Application has Started.
+2023-11-03 11:57:00.542 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 11:57:00.665 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 11:57:00.673 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 11:57:00.673 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 11:57:00.718 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 11:57:01.046 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 328.6588ms
+2023-11-03 11:57:01.060 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 11:57:01.070 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 5.4141ms
+2023-11-03 11:57:01.080 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 11:57:01.096 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.2662ms
+2023-11-03 11:57:01.378 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 11:57:01.515 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.3616ms
+2023-11-03 11:57:48.960 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 177
+2023-11-03 11:57:49.006 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:57:49.014 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:57:49.060 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:57:49.692 +00:00} [INF] Registration Attempt for Beno@example.com
+2023-11-03 11:57:49.739 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 11:57:49.796 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 732.5062ms
+2023-11-03 11:57:49.796 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:57:49.799 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 177 - 400 260 application/json;+charset=utf-8 839.7283ms
+2023-11-03 11:58:12.421 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 180
+2023-11-03 11:58:12.429 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:58:12.432 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:12.434 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:58:12.455 +00:00} [INF] Registration Attempt for Beno@example.com
+2023-11-03 11:58:12.456 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 11:58:12.458 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 23.7755ms
+2023-11-03 11:58:12.458 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:12.459 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 180 - 400 182 application/json;+charset=utf-8 40.9056ms
+2023-11-03 11:58:14.003 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 180
+2023-11-03 11:58:14.007 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:58:14.008 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:14.008 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:58:14.027 +00:00} [INF] Registration Attempt for Beno@example.com
+2023-11-03 11:58:14.027 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 11:58:14.028 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 20.3268ms
+2023-11-03 11:58:14.028 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:14.028 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 180 - 400 182 application/json;+charset=utf-8 28.6048ms
+2023-11-03 11:58:14.244 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 180
+2023-11-03 11:58:14.245 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:58:14.245 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:14.245 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:58:14.246 +00:00} [INF] Registration Attempt for Beno@example.com
+2023-11-03 11:58:14.247 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 11:58:14.247 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 2.1576ms
+2023-11-03 11:58:14.247 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:14.248 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 180 - 400 182 application/json;+charset=utf-8 3.3716ms
+2023-11-03 11:58:26.042 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 180
+2023-11-03 11:58:26.042 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:58:26.042 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:26.042 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:58:26.043 +00:00} [INF] Registration Attempt for Beno@example.com
+2023-11-03 11:58:26.043 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 11:58:26.044 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 1.6433ms
+2023-11-03 11:58:26.044 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:26.045 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 180 - 400 100 application/json;+charset=utf-8 2.9069ms
+2023-11-03 11:58:38.662 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 178
+2023-11-03 11:58:38.663 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:58:38.664 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:38.664 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:58:38.665 +00:00} [INF] Registration Attempt for Beno@example.com
+2023-11-03 11:58:42.921 +00:00} [INF] Executed DbCommand ("80"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 11:58:42.961 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 11:58:42.962 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 4297.7205ms
+2023-11-03 11:58:42.962 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:58:42.972 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 178 - 400 41 application/json;+charset=utf-8 4309.7181ms
+2023-11-03 11:59:01.111 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 176
+2023-11-03 11:59:01.112 +00:00} [INF] CORS policy execution successful.
+2023-11-03 11:59:01.112 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:59:01.112 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 11:59:01.113 +00:00} [INF] Registration Attempt for Beno@gmail.com
+2023-11-03 11:59:01.338 +00:00} [INF] Executed DbCommand ("12"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 11:59:01.339 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 11:59:01.340 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 227.9392ms
+2023-11-03 11:59:01.340 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 11:59:01.340 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 176 - 400 41 application/json;+charset=utf-8 229.1835ms
+2023-11-03 12:00:06.590 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 178
+2023-11-03 12:00:06.590 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:00:06.591 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:00:06.591 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:00:06.600 +00:00} [INF] Registration Attempt for beno21@gmail.com
+2023-11-03 12:00:06.775 +00:00} [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:00:06.777 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:00:06.778 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 187.4606ms
+2023-11-03 12:00:06.778 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:00:06.782 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 178 - 400 41 application/json;+charset=utf-8 189.3762ms
+2023-11-03 12:00:20.978 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 176
+2023-11-03 12:00:20.978 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:00:20.978 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:00:20.978 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:00:20.983 +00:00} [INF] Registration Attempt for user@gmail.com
+2023-11-03 12:00:21.191 +00:00} [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:00:21.191 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:00:21.192 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 213.082ms
+2023-11-03 12:00:21.192 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:00:21.192 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 176 - 400 41 application/json;+charset=utf-8 213.9049ms
+2023-11-03 12:01:06.601 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 173
+2023-11-03 12:01:06.601 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:01:06.601 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:01:06.601 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:01:06.602 +00:00} [INF] Registration Attempt for user@example.com
+2023-11-03 12:01:06.602 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:01:06.603 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 1.6814ms
+2023-11-03 12:01:06.603 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:01:06.603 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 173 - 400 83 application/json;+charset=utf-8 2.8943ms
+2023-11-03 12:01:16.480 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 173
+2023-11-03 12:01:16.481 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:01:16.481 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:01:16.481 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:01:16.482 +00:00} [INF] Registration Attempt for user@example.com
+2023-11-03 12:01:16.692 +00:00} [INF] Executed DbCommand ("9"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:01:16.692 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:01:16.697 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 215.5346ms
+2023-11-03 12:01:16.697 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:01:16.697 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 173 - 400 41 application/json;+charset=utf-8 216.7422ms
+2023-11-03 12:04:01.370 +00:00} [INF] Application has Started.
+2023-11-03 12:04:01.574 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 12:04:01.732 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:04:01.733 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 12:04:01.733 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 12:04:01.753 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 12:04:02.042 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 289.3807ms
+2023-11-03 12:04:02.056 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 12:04:02.057 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 12:04:02.061 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 3.9087ms
+2023-11-03 12:04:02.091 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.3965ms
+2023-11-03 12:04:02.200 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 12:04:02.528 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 327.7863ms
+2023-11-03 12:04:28.028 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 174
+2023-11-03 12:04:28.038 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:04:28.043 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:04:28.072 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:04:28.369 +00:00} [INF] Registration Attempt for user@example.com
+2023-11-03 12:04:28.385 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:04:28.410 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 335.1293ms
+2023-11-03 12:04:28.411 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:04:28.413 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 174 - 400 79 application/json;+charset=utf-8 385.3858ms
+2023-11-03 12:04:36.710 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 176
+2023-11-03 12:04:36.714 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:04:36.714 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:04:36.715 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:04:36.746 +00:00} [INF] Registration Attempt for user@example.com
+2023-11-03 12:04:38.046 +00:00} [INF] Executed DbCommand ("35"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:04:38.075 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:04:38.076 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 1361.19ms
+2023-11-03 12:04:38.077 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:04:38.084 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 176 - 400 41 application/json;+charset=utf-8 1373.9558ms
+2023-11-03 12:04:55.585 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 177
+2023-11-03 12:04:55.586 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:04:55.586 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:04:55.586 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:04:55.623 +00:00} [INF] Registration Attempt for break@example.com
+2023-11-03 12:04:55.802 +00:00} [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:04:55.803 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:04:55.803 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 216.9939ms
+2023-11-03 12:04:55.803 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:04:55.804 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 177 - 400 41 application/json;+charset=utf-8 218.4928ms
+2023-11-03 12:04:59.987 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 177
+2023-11-03 12:04:59.987 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:04:59.987 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:04:59.988 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:04:59.988 +00:00} [INF] Registration Attempt for break@example.com
+2023-11-03 12:05:00.092 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:00.092 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:00.093 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 104.8308ms
+2023-11-03 12:05:00.093 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:00.093 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 177 - 400 41 application/json;+charset=utf-8 105.8270ms
+2023-11-03 12:05:07.662 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175
+2023-11-03 12:05:07.663 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:05:07.663 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:07.663 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:05:07.664 +00:00} [INF] Registration Attempt for break@gmail.com
+2023-11-03 12:05:07.825 +00:00} [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:07.826 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:07.826 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 163.5545ms
+2023-11-03 12:05:07.826 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:07.827 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175 - 400 41 application/json;+charset=utf-8 164.4893ms
+2023-11-03 12:05:09.198 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175
+2023-11-03 12:05:09.199 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:05:09.199 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:09.199 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:05:09.200 +00:00} [INF] Registration Attempt for break@gmail.com
+2023-11-03 12:05:09.353 +00:00} [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:09.353 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:09.353 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 153.8824ms
+2023-11-03 12:05:09.353 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:09.354 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175 - 400 41 application/json;+charset=utf-8 155.3718ms
+2023-11-03 12:05:09.515 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175
+2023-11-03 12:05:09.516 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:05:09.516 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:09.516 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:05:09.517 +00:00} [INF] Registration Attempt for break@gmail.com
+2023-11-03 12:05:09.605 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:09.606 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:09.606 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 90.0319ms
+2023-11-03 12:05:09.606 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:09.606 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175 - 400 41 application/json;+charset=utf-8 90.9933ms
+2023-11-03 12:05:09.826 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175
+2023-11-03 12:05:09.827 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:05:09.827 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:09.827 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:05:09.828 +00:00} [INF] Registration Attempt for break@gmail.com
+2023-11-03 12:05:09.981 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:09.981 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:09.982 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 154.7752ms
+2023-11-03 12:05:09.983 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:09.985 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175 - 400 41 application/json;+charset=utf-8 158.1427ms
+2023-11-03 12:05:10.119 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175
+2023-11-03 12:05:10.120 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:05:10.120 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:10.120 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:05:10.120 +00:00} [INF] Registration Attempt for break@gmail.com
+2023-11-03 12:05:10.263 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:10.263 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:10.263 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 143.7621ms
+2023-11-03 12:05:10.264 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:10.266 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175 - 400 41 application/json;+charset=utf-8 144.3917ms
+2023-11-03 12:05:10.400 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175
+2023-11-03 12:05:10.400 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:05:10.401 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:10.401 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:05:10.401 +00:00} [INF] Registration Attempt for break@gmail.com
+2023-11-03 12:05:10.568 +00:00} [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:10.569 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:10.569 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 168.4255ms
+2023-11-03 12:05:10.569 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:10.569 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175 - 400 41 application/json;+charset=utf-8 169.2228ms
+2023-11-03 12:05:10.660 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175
+2023-11-03 12:05:10.661 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:05:10.661 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:10.661 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:05:10.662 +00:00} [INF] Registration Attempt for break@gmail.com
+2023-11-03 12:05:10.751 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:10.751 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:10.752 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 90.6984ms
+2023-11-03 12:05:10.752 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:10.752 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175 - 400 41 application/json;+charset=utf-8 91.3595ms
+2023-11-03 12:05:10.942 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175
+2023-11-03 12:05:10.942 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:05:10.942 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:10.942 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:05:10.943 +00:00} [INF] Registration Attempt for break@gmail.com
+2023-11-03 12:05:11.046 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:05:11.046 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:05:11.046 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 104.0752ms
+2023-11-03 12:05:11.046 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:05:11.046 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 175 - 400 41 application/json;+charset=utf-8 104.6889ms
+2023-11-03 12:08:26.676 +00:00} [INF] Application has Started.
+2023-11-03 12:08:26.823 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 12:08:26.914 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:08:26.916 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 12:08:26.916 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 12:08:26.946 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 12:08:27.179 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 238.5047ms
+2023-11-03 12:08:27.197 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 12:08:27.197 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 12:08:27.204 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 5.3113ms
+2023-11-03 12:08:27.228 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.2407ms
+2023-11-03 12:08:27.330 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 12:08:27.485 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.9219ms
+2023-11-03 12:08:57.201 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 176
+2023-11-03 12:08:57.215 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:08:57.219 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:08:57.244 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:08:57.534 +00:00} [INF] Registration Attempt for string@gmail.com
+2023-11-03 12:08:58.645 +00:00} [INF] Executed DbCommand ("32"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:08:58.674 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:08:58.697 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 1450.3064ms
+2023-11-03 12:08:58.698 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:08:58.709 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 176 - 400 41 application/json;+charset=utf-8 1507.4138ms
+2023-11-03 12:14:02.820 +00:00} [INF] Application has Started.
+2023-11-03 12:14:03.010 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 12:14:03.071 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:14:03.072 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 12:14:03.072 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 12:14:03.090 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 12:14:03.302 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 213.4255ms
+2023-11-03 12:14:03.315 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 12:14:03.322 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 12:14:03.329 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 10.8245ms
+2023-11-03 12:14:03.352 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.4342ms
+2023-11-03 12:14:03.441 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 12:14:03.585 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.4762ms
+2023-11-03 12:14:38.452 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 165
+2023-11-03 12:14:38.465 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:14:38.471 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:14:38.500 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:14:38.776 +00:00} [INF] Registration Attempt for user@example.com
+2023-11-03 12:14:39.750 +00:00} [INF] Executed DbCommand ("30"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:14:39.783 +00:00} [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2023-11-03 12:14:39.941 +00:00} [INF] Executed DbCommand ("16"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SET IMPLICIT_TRANSACTIONS OFF;\r\nSET NOCOUNT ON;\r\nINSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])\r\nVALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);"
+2023-11-03 12:14:39.959 +00:00} [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]\r\nFROM [AspNetRoles] AS [a]\r\nWHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2023-11-03 12:14:39.964 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]\r\nFROM [AspNetRoles] AS [a]\r\nWHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2023-11-03 12:14:39.967 +00:00} [ERR] Something went wrong in the Register
+System.InvalidOperationException: Role STRING does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRolesAsync(TUser user, IEnumerable`1 roles)
+   at Housing.Controllers.AccountController.Register(UserDTO userDto) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Controllers\AccountController.cs:line 57
+2023-11-03 12:14:40.004 +00:00} [INF] Executing "ObjectResult", writing value of type '"System.String"'.
+2023-11-03 12:14:40.008 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 1505.4023ms
+2023-11-03 12:14:40.009 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:14:40.016 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 165 - 500 - text/plain;+charset=utf-8 1564.3276ms
+2023-11-03 12:54:24.199 +00:00} [INF] Application has Started.
+2023-11-03 12:54:24.480 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 12:54:24.573 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:54:24.574 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 12:54:24.574 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 12:54:24.592 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 12:54:24.820 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 229.0638ms
+2023-11-03 12:54:24.831 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 12:54:24.839 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 6.7901ms
+2023-11-03 12:54:24.842 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 12:54:24.878 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.7737ms
+2023-11-03 12:54:24.996 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 12:54:25.175 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.4614ms
+2023-11-03 12:54:44.834 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 169
+2023-11-03 12:54:44.846 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:54:44.853 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:54:44.877 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:54:45.153 +00:00} [INF] Registration Attempt for user@example.com
+2023-11-03 12:54:45.170 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:54:45.215 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 334.819ms
+2023-11-03 12:54:45.215 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:54:45.217 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 169 - 400 83 application/json;+charset=utf-8 382.9158ms
+2023-11-03 12:54:53.222 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 169
+2023-11-03 12:54:53.225 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:54:53.225 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:54:53.226 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:54:53.246 +00:00} [INF] Registration Attempt for user@example.com
+2023-11-03 12:54:55.891 +00:00} [INF] Executed DbCommand ("48"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:54:56.004 +00:00} [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2023-11-03 12:54:56.012 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.SerializableError"'.
+2023-11-03 12:54:56.013 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 2787.0939ms
+2023-11-03 12:54:56.014 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:54:56.019 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 169 - 400 135 application/json;+charset=utf-8 2796.6194ms
+2023-11-03 12:55:48.657 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 12:55:48.675 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 17.5160ms
+2023-11-03 12:55:48.729 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 12:55:48.730 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 0.8907ms
+2023-11-03 12:55:48.730 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 12:55:48.781 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.1092ms
+2023-11-03 12:55:48.879 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 12:55:48.911 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 31.9069ms
+2023-11-03 12:56:34.450 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 166
+2023-11-03 12:56:34.454 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:56:34.455 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:56:34.455 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:56:34.474 +00:00} [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2023-11-03 12:56:34.496 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 40.4091ms
+2023-11-03 12:56:34.496 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:56:34.496 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 166 - 400 253 application/problem+json;+charset=utf-8 46.5026ms
+2023-11-03 12:56:48.673 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 167
+2023-11-03 12:56:48.673 +00:00} [INF] CORS policy execution successful.
+2023-11-03 12:56:48.673 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:56:48.673 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 12:56:48.674 +00:00} [INF] Registration Attempt for fiko@example.com
+2023-11-03 12:56:48.843 +00:00} [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 12:56:48.844 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2023-11-03 12:56:48.930 +00:00} [INF] Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SET IMPLICIT_TRANSACTIONS OFF;\r\nSET NOCOUNT ON;\r\nINSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])\r\nVALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);"
+2023-11-03 12:56:48.939 +00:00} [INF] Executing "AcceptedResult", writing value of type '"null"'.
+2023-11-03 12:56:48.939 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 265.6638ms
+2023-11-03 12:56:48.939 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 12:56:48.940 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 167 - 202 - - 267.0582ms
+2023-11-03 13:14:19.495 +00:00} [INF] Application has Started.
+2023-11-03 13:14:19.573 +00:00} [FTL] Application Failed to Start.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Program.cs:line 51
+2023-11-03 13:19:59.374 +00:00} [INF] Application has Started.
+2023-11-03 13:19:59.941 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 13:20:00.178 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 13:20:00.178 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 13:20:00.179 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 13:20:00.261 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 13:20:02.040 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 1782.9077ms
+2023-11-03 13:20:21.053 +00:00} [INF] Application has Started.
+2023-11-03 13:20:21.278 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 13:20:21.338 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 13:20:21.338 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 13:20:21.339 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 13:20:21.356 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 13:20:21.779 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 13:20:21.780 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 425.9507ms
+2023-11-03 13:20:21.784 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 13:20:21.795 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 4.5568ms
+2023-11-03 13:20:21.961 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 177.0891ms
+2023-11-03 13:20:22.040 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 13:20:22.305 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.1588ms
+2023-11-03 13:21:06.810 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 167
+2023-11-03 13:21:06.814 +00:00} [INF] CORS policy execution successful.
+2023-11-03 13:21:06.822 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 13:21:06.847 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 13:21:07.306 +00:00} [INF] Registration Attempt for user@housing.com
+2023-11-03 13:21:08.934 +00:00} [INF] Executed DbCommand ("48"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 13:21:08.968 +00:00} [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2023-11-03 13:21:09.201 +00:00} [INF] Executed DbCommand ("8"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SET IMPLICIT_TRANSACTIONS OFF;\r\nSET NOCOUNT ON;\r\nINSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])\r\nVALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);"
+2023-11-03 13:21:09.222 +00:00} [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]\r\nFROM [AspNetRoles] AS [a]\r\nWHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2023-11-03 13:21:09.228 +00:00} [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]\r\nFROM [AspNetRoles] AS [a]\r\nWHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2023-11-03 13:21:09.230 +00:00} [ERR] Something went wrong in the Register
+System.InvalidOperationException: Role USER does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRolesAsync(TUser user, IEnumerable`1 roles)
+   at Housing.Controllers.AccountController.Register(UserDTO userDto) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Controllers\AccountController.cs:line 57
+2023-11-03 13:21:09.304 +00:00} [INF] Executing "ObjectResult", writing value of type '"System.String"'.
+2023-11-03 13:21:09.308 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 2458.8938ms
+2023-11-03 13:21:09.309 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 13:21:09.320 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 167 - 500 - text/plain;+charset=utf-8 2510.3867ms
+2023-11-03 13:27:13.784 +00:00} [INF] Application has Started.
+2023-11-03 13:27:13.846 +00:00} [FTL] Application Failed to Start.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Ben\Desktop\C# webapi\Housing\Housing\Program.cs:line 51
+2023-11-03 13:27:14.976 +00:00} [INF] Application has Started.
+2023-11-03 13:27:15.331 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 13:27:15.549 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 13:27:15.549 +00:00} [INF] Hosting environment: "Development"
+2023-11-03 13:27:15.549 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-03 13:27:15.578 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 13:27:16.106 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 532.5849ms
+2023-11-03 13:27:16.219 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 13:27:16.246 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.0675ms
+2023-11-03 13:27:16.250 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 13:27:16.254 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 3.5540ms
+2023-11-03 13:27:16.649 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 13:27:16.815 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.5861ms
+2023-11-03 13:29:12.018 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-03 13:29:12.030 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 12.4506ms
+2023-11-03 13:29:12.037 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 13:29:12.037 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-03 13:29:12.038 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 1.6835ms
+2023-11-03 13:29:12.044 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.8799ms
+2023-11-03 13:29:12.154 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-03 13:29:12.162 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.2168ms
+2023-11-03 13:29:47.346 +00:00} [INF] Request starting HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 167
+2023-11-03 13:29:47.354 +00:00} [INF] CORS policy execution successful.
+2023-11-03 13:29:47.361 +00:00} [INF] Executing endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 13:29:47.386 +00:00} [INF] Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Housing.Model.UserDTO)" on controller "Housing.Controllers.AccountController" ("Housing").
+2023-11-03 13:29:47.678 +00:00} [INF] Registration Attempt for Fab@example.com
+2023-11-03 13:29:48.774 +00:00} [INF] Executed DbCommand ("33"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 13:29:48.809 +00:00} [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2023-11-03 13:29:48.945 +00:00} [INF] Executed DbCommand ("6"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SET IMPLICIT_TRANSACTIONS OFF;\r\nSET NOCOUNT ON;\r\nINSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])\r\nVALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);"
+2023-11-03 13:29:48.966 +00:00} [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]\r\nFROM [AspNetRoles] AS [a]\r\nWHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2023-11-03 13:29:49.000 +00:00} [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[UserId], [a].[RoleId]\r\nFROM [AspNetUserRoles] AS [a]\r\nWHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2023-11-03 13:29:49.005 +00:00} [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]\r\nFROM [AspNetRoles] AS [a]\r\nWHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2023-11-03 13:29:49.017 +00:00} [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2023-11-03 13:29:49.021 +00:00} [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]\r\nFROM [AspNetUsers] AS [a]\r\nWHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2023-11-03 13:29:49.064 +00:00} [INF] Executed DbCommand ("17"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p18='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p19='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)"], CommandType='"Text"', CommandTimeout='30']"\r\n""SET NOCOUNT ON;\r\nINSERT INTO [AspNetUserRoles] ([RoleId], [UserId])\r\nVALUES (@p0, @p1);\r\nUPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [FirstName] = @p6, [LastName] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17\r\nOUTPUT 1\r\nWHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;"
+2023-11-03 13:29:49.079 +00:00} [INF] Executing "AcceptedResult", writing value of type '"null"'.
+2023-11-03 13:29:49.082 +00:00} [INF] Executed action "Housing.Controllers.AccountController.Register (Housing)" in 1693.2507ms
+2023-11-03 13:29:49.082 +00:00} [INF] Executed endpoint '"Housing.Controllers.AccountController.Register (Housing)"'
+2023-11-03 13:29:49.089 +00:00} [INF] Request finished HTTP/2 POST https://localhost:44356/api/Account/register application/json-patch+json 167 - 202 - - 1742.8110ms

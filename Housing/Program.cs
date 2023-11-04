@@ -1,4 +1,7 @@
+using Housing;
+using Housing.Configuration;
 using Housing.Data;
+using Housing.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Serilog;
@@ -23,12 +26,20 @@ builder.Services.AddCors(o => o.AddPolicy("AllowAll",
 //setting up database
 builder.Services.AddDbContext<DatabaseContext>(options=> options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
 
+//Adding Identity
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddAutoMapper(typeof(MapperInitializer));
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddSwaggerGen(c => c.SwaggerDoc("v1",new OpenApiInfo{Title = "Housing",Version = "v1"}));
 
+builder.Services.AddControllers().AddNewtonsoftJson(op =>
+    op.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 
 

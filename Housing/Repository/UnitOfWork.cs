@@ -2,22 +2,35 @@
 
 namespace Housing.Repository
 {
-    public class UnitOfWork<T> : IUnitOfWork where T : class
+    public class UnitOfWork : IUnitOfWork 
     {
-        public IGenericRepository<Country> Countries => throw new NotImplementedException();
+        private readonly DatabaseContext _databaseContext;
 
-        public IGenericRepository<House> Hotels => throw new NotImplementedException();
+        // backtracking
+        private IGenericRepository<Country> _countries;
+        private IGenericRepository<House> _houses;
+        private IGenericRepository<State> _states;
 
-        public IGenericRepository<State> States => throw new NotImplementedException();
+        public UnitOfWork(DatabaseContext context)
+        {
+            _databaseContext = context;
+        }
+
+        public IGenericRepository<Country> Countries => _countries ??= new GenericRepository<Country>(_databaseContext);
+
+        public IGenericRepository<House> Houses => _houses ??= new GenericRepository<House>(_databaseContext) ;
+
+        public IGenericRepository<State> States => _states ??= new GenericRepository<State>(_databaseContext);
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _databaseContext.Dispose();
+            GC.SuppressFinalize(this);
         }
 
-        public Task Save()
+        public async Task Save()
         {
-            throw new NotImplementedException();
+            await _databaseContext.SaveChangesAsync();
         }
     }
 }

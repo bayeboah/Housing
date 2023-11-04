@@ -1,0 +1,13 @@
+2023-11-04 10:12:44.296 +00:00} [INF] Application has Started.
+2023-11-04 10:12:45.680 +00:00} [INF] User profile is available. Using '"C:\\Users\\Ben\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-04 10:12:45.926 +00:00} [INF] Application started. Press Ctrl+C to shut down.
+2023-11-04 10:12:45.927 +00:00} [INF] Hosting environment: "Development"
+2023-11-04 10:12:45.927 +00:00} [INF] Content root path: "C:\\Users\\Ben\\Desktop\\C# webapi\\Housing\\Housing"
+2023-11-04 10:12:45.990 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-11-04 10:12:51.452 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 5468.2905ms
+2023-11-04 10:12:51.536 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-11-04 10:12:51.555 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 12.4563ms
+2023-11-04 10:12:51.562 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-11-04 10:12:52.191 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 630.5176ms
+2023-11-04 10:12:52.301 +00:00} [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-11-04 10:12:52.673 +00:00} [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 372.4157ms

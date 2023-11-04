@@ -7,6 +7,8 @@ namespace Housing.Model
         public int Id { get; set; }
 
         public CountryDTO Country { get; set; }
+
+
     }
 
     public class CreatestateDTO
